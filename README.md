@@ -14,13 +14,11 @@ Based on raw sequence violence search, Matrirx profile and SAX.
 This algorithm package has the following Advantages:
 
 1. The call of different algorithm is simple and straightforward
-2. 
-3. Direct visualisation of results for easy comparison
+2. Direct visualisation of results for easy comparison
 
 # limitations:
 1. The input is restricted to univariate time series, so if the original data is a multivariate time series, the data needs to be extracted separately for motif discovery.
-2. 
-3. The algorithms used are not necessarily optimal, as some of them do not yet have good conversion code in python.
+2. The algorithms used are not necessarily optimal, as some of them do not yet have good conversion code in python.
 
 # Requirements
 pandas
@@ -42,19 +40,21 @@ STUMPY (https://github.com/TDAmeritrade/stumpy）
 Matrix Profile (https://github.com/matrix-profile-foundation/matrixprofile)
 
 # Example
-Import: 
+## Import: 
 
 ts: One column is time (must be named as 't')， One column for data. 
 
 ![Image text](https://github.com/7SiebenPunch/img-folder/blob/main/Testdata.png)
 
 windowsize: The time window, in this case, can be thought of as the length of the motif.
-
 topk: The first k motifs to be extracted and visualised. 
       Note: The MK algorithm can only extract one motif, so the topk parameter is not required. In addition, the distance calculation method 'euclidean' or 'dtw' can be selected in the MK algorithm.
 
-Mk:
+## MK: 默认windowsize = 150, metrix = 'euclidean'
 
+```
+mkal(ts)
+```
 
 # License
 MIT License
