@@ -40,7 +40,11 @@ STUMPY (https://github.com/TDAmeritrade/stumpy）
 Matrix Profile (https://github.com/matrix-profile-foundation/matrixprofile)
 
 # Example
-## Import: 
+## Data read
+```
+ts = pd.read_csv('Euro_pfund.csv')
+```
+## Import
 
 ts: One column is time (must be named as 't')， One column for data. 
 
@@ -51,7 +55,7 @@ windowsize: The time window, in this case, can be thought of as the length of th
 topk: The first k motifs to be extracted and visualised.
 
 Note: The MK algorithm can only extract one motif, so the topk parameter is not required. In addition, the distance calculation method 'euclidean' or 'dtw' can be selected in the MK algorithm.
-
+      
 ## MK(ts, windowsize = 150, metrix = 'euclidean')
 
 ```
