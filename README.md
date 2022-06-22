@@ -2,12 +2,11 @@
 Integration of some of the best existing Motif discovery algorithms in time series.
 
 # Background
-The discovery of Motif in time series has large implications for the study of time series data.However, there are numerous existing algorithms with different principles and no one has integrated them.
+The discovery of Motif in time series has large implications for the study of time series data. However, there are numerous existing algorithms with different principles and no one has integrated them.
 
 By integrating the different algorithms, it will be easier to use different algorithms for motif discovery in time series and to compare the algorithms in order to choose the best one for motif discovery.
 
-The algorithms chosen here are MK, STOMP, STUMP, SCRIMP++, Grammarintroduction.
-Based on raw sequence violence search, Matrirx profile and SAX.
+The algorithms chosen here are MK, STOMP, STUMP, SCRIMP++, Grammarintroduction. Based on raw sequence violence search, Matrirx profile and SAX.
 
 # Advantages
 
