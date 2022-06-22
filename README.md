@@ -72,11 +72,11 @@ spu_stump(ts)
 ```
 
 ## Grammarintroduction(ts, df, w=6, n=100, k=10, topk=3) 
-__w:__Subsequence character length
+__w:__ Subsequence character length
 
-__n:__subsequences length
+__n:__ subsequences length
 
-__k:__stride of k
+__k:__ stride of k
 
 ```python
 grammarintroduction(ts)
