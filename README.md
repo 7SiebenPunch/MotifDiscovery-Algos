@@ -41,18 +41,18 @@ Matrix Profile (https://github.com/matrix-profile-foundation/matrixprofile)
 
 # Example
 ## Data read
-ts: One column is time (__must be named as 't'__)， One column for data. 
+__ts__: One column is time (__must be named as 't'__)， One column for data. 
 ```python
 ts = pd.read_csv('Euro_pfund.csv')
 ```
 
 ![Image text](https://github.com/7SiebenPunch/img-folder/blob/main/Testdata.png)
 ## Import parameters
-ts
+__ts__: ts
 
-windowsize: The time window, in this case, can be thought of as the length of the motif.
+__windowsize:__ The time window, in this case, can be thought of as the length of the motif.
 
-topk: The first k motifs to be extracted and visualised.
+__topk:__ The first k motifs to be extracted and visualised.
 
 Note: The MK algorithm can only extract one motif, so the topk parameter is not required. In addition, the distance calculation method 'euclidean' or 'dtw' can be selected in the MK algorithm.
       
@@ -73,11 +73,11 @@ spu_stump(ts)
 ```
 
 ## Grammarintroduction(ts, df, w=6, n=100, k=10, topk=3) 
-w:Subsequence character length
+__w:__Subsequence character length
 
-n:subsequences length
+__n:__subsequences length
 
-k:stride of k
+__k:__stride of k
 
 ```python
 grammarintroduction(ts)
