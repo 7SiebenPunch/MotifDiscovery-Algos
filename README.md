@@ -41,7 +41,7 @@ Matrix Profile (https://github.com/matrix-profile-foundation/matrixprofile)
 
 # Example
 ## Data read
-```
+```python
 ts = pd.read_csv('Euro_pfund.csv')
 ```
 ## Import
@@ -58,12 +58,14 @@ Note: The MK algorithm can only extract one motif, so the topk parameter is not 
       
 ## MK(ts, windowsize = 150, metrix = 'euclidean')
 
-```
+```python
+from mdalgos import algos
+
 mkal(ts)
 ```
 ## STOMP, SCRIMP++, STUMP, GPU_STUMP(ts, windowsize=200, topk=3)
 
-```
+```python
 stomp(ts)
 scrimp_2plus(ts)
 stump(ts)
@@ -77,7 +79,7 @@ n:subsequences length
 
 k:stride of k
 
-```
+```python
 grammarintroduction(ts)
 ```
 
