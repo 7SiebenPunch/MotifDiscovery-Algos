@@ -14,6 +14,7 @@ This algorithm package has the following Advantages:
 
 1. The call of different algorithm is simple and straightforward
 2. Direct visualisation of results for easy comparison
+3. Motif can be automatically saved as a csv file and exported
 
 # limitations:
 1. The input is restricted to univariate time series, so if the original data is a multivariate time series, the data needs to be extracted separately for motif discovery.
@@ -48,6 +49,10 @@ ts = pd.read_csv('Euro_pfund.csv')
 ![Image text](https://github.com/7SiebenPunch/img-folder/blob/main/Testdata.png)
 ## Import parameters
 __ts__: ts
+
+__path__: The path to export the motif as a csv file for storage. 
+          The format is: '/home/', if you don't enter a path, it will default to the folder where the current application is located.
+          If you don't want to export the file, delete the csv export code in algo.py
 
 __windowsize:__ The time window, in this case, can be thought of as the length of the motif.
 
