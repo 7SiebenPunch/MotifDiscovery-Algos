@@ -71,7 +71,7 @@ stump(ts)
 spu_stump(ts)
 ```
 
-## Grammarintroduction(ts, df, w=6, n=100, k=10, topk=3) 
+## Grammarintroduction(ts, w=6, n=100, k=10, topk=3) 
 __w:__ Subsequence character length
 
 __n:__ subsequences length
