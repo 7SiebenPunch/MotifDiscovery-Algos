@@ -84,4 +84,4 @@ grammarintroduction(ts)
 ```
 
 # License
-MIT License
+[MIT LICENSE](https://github.com/7SiebenPunch/MotifDiscovery-Algos/blob/main/LICENSE)
