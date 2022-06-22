@@ -50,10 +50,30 @@ windowsize: The time window, in this case, can be thought of as the length of th
 topk: The first k motifs to be extracted and visualised. 
       Note: The MK algorithm can only extract one motif, so the topk parameter is not required. In addition, the distance calculation method 'euclidean' or 'dtw' can be selected in the MK algorithm.
 
-## MK: 默认windowsize = 150, metrix = 'euclidean'
+## MK(ts, windowsize = 150, metrix = 'euclidean')
 
 ```
 mkal(ts)
+```
+## STOMP, SCRIMP++, STUMP, GPU_STUMP(ts, windowsize=200, topk=3)
+
+```
+stomp(ts)
+or
+scrimp_2plus(ts)
+or
+stump(ts)
+or
+spu_stump(ts)
+```
+
+## Grammarintroduction(ts, df, w=6, n=100, k=10, topk=3) 
+    w:Subsequence character length
+    n:subsequences length
+    k:stride of k
+    topk:The topk motifs to extract and visualize
+```
+grammarintroduction(ts)
 ```
 
 # License
