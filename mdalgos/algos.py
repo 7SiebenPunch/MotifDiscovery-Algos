@@ -201,7 +201,7 @@ def grammarintroduction(df, w=6, n=100, k=10, topk=3):
     return
 
 
-def mkal(ts, windowsize=1 50, metric='euclidean'):
+def mkal(ts, windowsize=150, metric='euclidean'):
     """
     Search for the most significant motif in the time series using MK
     ts: DataFrame, two columns, one for time and one for variables
