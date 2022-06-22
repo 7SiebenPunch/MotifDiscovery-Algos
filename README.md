@@ -41,14 +41,14 @@ Matrix Profile (https://github.com/matrix-profile-foundation/matrixprofile)
 
 # Example
 ## Data read
+ts: One column is time (__must be named as 't'__)， One column for data. 
 ```python
 ts = pd.read_csv('Euro_pfund.csv')
 ```
-## Import
-
-ts: One column is time (must be named as 't')， One column for data. 
 
 ![Image text](https://github.com/7SiebenPunch/img-folder/blob/main/Testdata.png)
+## Import parameters
+ts
 
 windowsize: The time window, in this case, can be thought of as the length of the motif.
 
