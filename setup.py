@@ -8,5 +8,5 @@ setup(
         description='Integration of some of the best existing Motif discovery algorithms in time series.',   
         author='Jiajun Qi',  
         url='https://github.com/7SiebenPunch/MotifDiscovery-Algos',     
-        packages=find_packages()                
+        packages=['mdalgos']                
 )
