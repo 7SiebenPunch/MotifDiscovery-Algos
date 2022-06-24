@@ -65,15 +65,15 @@ Note: The MK algorithm can only extract one motif, so the topk parameter is not 
 ```python
 from mdalgos import algos
 
-mkal(ts)
+mkal(ts, path='/home/')
 ```
 ## STOMP, SCRIMP++, STUMP, GPU_STUMP(ts, windowsize=200, topk=3)
 
 ```python
-stomp(ts)
-scrimp_2plus(ts)
-stump(ts)
-spu_stump(ts)
+stomp(ts, path='/home/')
+scrimp_2plus(ts, path='/home/')
+stump(ts, path='/home/')
+spu_stump(ts, path='/home/')
 ```
 
 ## Grammarintroduction(ts, w=6, n=100, k=10, topk=3) 
@@ -84,7 +84,7 @@ __n:__ subsequences length
 __k:__ stride of k
 
 ```python
-grammarintroduction(ts)
+grammarintroduction(ts, path='/home/')
 ```
 
 # License
