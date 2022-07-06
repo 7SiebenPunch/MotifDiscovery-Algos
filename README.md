@@ -41,7 +41,10 @@ Matrix Profile (https://github.com/matrix-profile-foundation/matrixprofile)
 
 # Example
 ## Data read
-__ts__: One column is time (__must be named as 't'__)， One column for data. 
+__ts__: 
+1.One column is time (__must be named as 't'__)， One column for data. 
+2.If all values in a column are identical, then the timeseries is not available.(Will cause a running error)
+
 ```python
 ts = pd.read_csv('Euro_pfund.csv')
 ```
