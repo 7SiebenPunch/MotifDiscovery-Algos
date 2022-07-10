@@ -1,6 +1,9 @@
 # MotifDiscovery-Algos
 Integration of some of the best existing Motif discovery algorithms in time series.
 
+# Introduction
+
+
 # Background
 The discovery of Motif in time series has large implications for the study of time series data. However, there are numerous existing algorithms with different principles and no one has integrated them.
 
