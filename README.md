@@ -38,7 +38,7 @@ matplotlib
 
 [mkalgo](https://github.com/saifuddin778/mkalgo#mkalgo-mk-algorithm) 
 
-[STUMPY](https://github.com/TDAmeritrade/stumpy）
+[STUMPY](https://github.com/TDAmeritrade/stumpy)
 
 [Matrix Profile](https://github.com/matrix-profile-foundation/matrixprofile)
 
