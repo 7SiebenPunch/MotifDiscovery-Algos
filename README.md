@@ -2,7 +2,16 @@
 Integration of some of the best existing Motif discovery algorithms in time series.
 
 # Introduction
+This library integrates a number of time series motif discovery algorithms and incorporates pattern discovery, visualisation and motifs storage.
+The mdalgos folder contains algos, i.e. algorithmic ensembles. These include STAMP, STOMP, STUMP, GPU_STUMP, GRAMMARINTRODUCTION and MK algorithms.
+The Test folder contains the data Euro_pfund.csv for testing and the trial code written in jupyter lab.
+Please install the necessary libraries mentioned in Requiements before installing this library. Otherwise it will not work.
+The library can be imported at the time of use in the following way：
 
+```python
+from mdalgos.algos import *
+```
+The algorithm can be used in subsequent programs by entering the name of the algorithm, see # Example for details.
 
 # Background
 The discovery of Motif in time series has large implications for the study of time series data. However, there are numerous existing algorithms with different principles and no one has integrated them.
@@ -69,7 +78,7 @@ Note: The MK algorithm can only extract one motif, so the topk parameter is not 
 ## MK(ts, windowsize = 150, metrix = 'euclidean')
 
 ```python
-from mdalgos import algos
+from mdalgos.algos import *
 
 mkal(ts, path='/home/')
 ```
