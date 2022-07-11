@@ -6,9 +6,10 @@ This library integrates a number of time series motif discovery algorithms and i
 
 The mdalgos folder contains algos, i.e. algorithmic ensembles. These include STOMP, STUMP, GPU_STUMP, SCRIMP++, GRAMMARINTRODUCTION and MK algorithms.
 
-The Test folder contains the data Euro_pfund.csv for testing and the trial code written in jupyter lab. Data source:European Central Bank, Frankfurt am Main, Germany. Euro_Pfund.csv is the data that has been processed by the author.
+The Test folder contains the data Euro_pfund.csv for testing and the trial code written in jupyter lab. Data source: European Central Bank, Frankfurt am Main, Germany. Euro_Pfund.csv is the data that has been processed by the author.
 
-Please install the necessary libraries mentioned in Requiements before installing this library. Otherwise it will not work.
+Download all files as a zip file and install the zip file via pip.
+But please install the necessary libraries mentioned in Requiements before installing this library. Otherwise it will not work.
 
 The library can be imported at the time of use in the following way：
 
@@ -92,6 +93,10 @@ Note: The MK algorithm can only extract one motif, so the topk parameter is not 
 The MK algorithm is based on:
 Mueen, A., Keogh, E., Zhu, Q., Cash, S. and Westover, B. [Exact Discovery of Time Series Motif](http://alumni.cs.ucr.edu/~mueen/pdf/EM.pdf)
 . SDM 2009
+
+When using the MK algorithm, the distance calculation method can be chosen from "euclidean" and "dtw"
+
+
 ```python
 from mdalgos.algos import *
 
