@@ -112,7 +112,7 @@ These algorithms are based on：
 stomp(ts, path='/home/')
 scrimp_2plus(ts, path='/home/')
 stump(ts, path='/home/')
-spu_stump(ts, path='/home/')
+gpu_stump(ts, path='/home/')
 ```
 **Note:** For a multivariate time series, when using traversal to perform motif discovery on individual variables in turn
 stomp and scrimp_2plus will run with an error if a column has exactly the same data (i.e. its data is a straight line).
